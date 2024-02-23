@@ -50,7 +50,7 @@ template Voucher(n, k, levels){
     assert(n * k >= 256);
     assert(n * (k-1) < 256);
 
-    signal input root;
+    signal input root;// Must to be public and put from Voting contract
     signal input pathElements[levels];
     signal input pathIndices[levels];
     signal input privkey[k];

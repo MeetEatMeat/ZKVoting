@@ -169,7 +169,7 @@ contract voucherHandler{
     }
 
     /// @notice Make a candidate turned to participant
-    /// @dev It checks if candidate has enough vouchers to became a particapant
+    /// @dev It checks if candidate has enough vouchers to became a participant
     function getVerified() public returns(bool){
         Participant memory p = _participants[msg.sender];
         require(p.vouchers.length >= VOUCHERS_REQUIRED, "Not enough vouchers");

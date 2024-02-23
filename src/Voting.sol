@@ -14,6 +14,7 @@ interface iVerifier {
 /// @author Yarix
 /// @notice Use it on your own risk
 /// @dev It checks ZK proof via call to verifier contract
+// TODO: Add check if root is valid
 contract voucherHandler{
     address public _owner;
     uint256 public _ownerCooldown;

@@ -12,3 +12,7 @@ docs/
 
 # Dotenv file
 .env
+
+src/circuits/pot20_final.ptau
+src/circuits/MerkleTreeChecker.circom
+src/circuits/withdraw.circom
